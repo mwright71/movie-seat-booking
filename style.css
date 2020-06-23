@@ -100,6 +100,26 @@ body {
     display: flex;
 }
 
+.reset {
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    border: none;
+}
+
+.reset:hover {
+    cursor: pointer;
+    background-color: #777;
+    color: #fff;
+}
+.reset:focus{
+    background-color: #777;
+    color: #fff;
+    outline: none;
+}
+
 p.text {
     margin: 5px 0;
 }
